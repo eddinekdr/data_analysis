@@ -1,7 +1,10 @@
 # data_analysis
 
+Vous trouverez dans le répertoire courant deux fichier seismic_bumps : 
+1. Seismic_bumps.arff contenant les données sismic (le dataset)
+2. Seismic_bumps.ipynb contenant le scrapping des données, la préparation des données, la visualisation des données, et le model machine learning
 
-Attribute information:
+# Attribute information:
 seismic: result of shift seismic hazard assessment in the mine working obtained by the seismic method (a - lack of hazard, b - low hazard, c - high hazard, d - danger state);
 seismoacoustic: result of shift seismic hazard assessment in the mine working obtained by the seismoacoustic method;
 shift: information about type of a shift (W - coal-getting, N -preparation shift);
@@ -23,58 +26,8 @@ maxenergy: the maximum energy of the seismic bumps registered within previous sh
 class: the decision attribute - '1' means that high energy seismic bump occurred in the next shift ('hazardous state'), '0' means that no high energy seismic bumps occurred in the next shift ('non-hazardous state').
 
 
-seismic-bumps Data Set 
-Download: Data Folder, Data Set Description
 
-Abstract: The data describe the problem of high energy (higher than 10^4 J) seismic bumps forecasting in a coal mine. Data come from two of longwalls located in a Polish coal mine.
-
-Data Set Characteristics:  
-
-Multivariate
-
-Number of Instances:
-
-2584
-
-Area:
-
-N/A
-
-Attribute Characteristics:
-
-Real
-
-Number of Attributes:
-
-19
-
-Date Donated
-
-2013-04-03
-
-Associated Tasks:
-
-Classification
-
-Missing Values?
-
-N/A
-
-Number of Web Hits:
-
-47964
-
-
-Source:
-
-Provide the names, email addresses, institutions, and other contact information of the donors and creators of the data set. 
-
-Marek Sikora^{1,2} (marek.sikora '@' polsl.pl), Lukasz Wrobel^{1} (lukasz.wrobel '@' polsl.pl) 
-(1) Institute of Computer Science, Silesian University of Technology, 44-100 Gliwice, Poland 
-(2) Institute of Innovative Technologies EMAG, 40-189 Katowice, Poland
-
-
-Data Set Information:
+# Data Set Information:
 
 Mining activity was and is always connected with the occurrence of dangers which are commonly called 
 mining hazards. A special case of such threat is a seismic hazard which frequently occurs in many 
