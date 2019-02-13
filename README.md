@@ -6,23 +6,41 @@ Vous trouverez dans le répertoire courant deux fichier seismic_bumps :
 
 # Attribute information:
 seismic: result of shift seismic hazard assessment in the mine working obtained by the seismic method (a - lack of hazard, b - low hazard, c - high hazard, d - danger state);
+
 seismoacoustic: result of shift seismic hazard assessment in the mine working obtained by the seismoacoustic method;
+
 shift: information about type of a shift (W - coal-getting, N -preparation shift);
+
 genergy: seismic energy recorded within previous shift by the most active geophone (GMax) out of geophones monitoring the longwall;
+
 gpuls: a number of pulses recorded within previous shift by GMax;
+
 gdenergy: a deviation of energy recorded within previous shift by GMax from average energy recorded during eight previous shifts;
+
 gdpuls: a deviation of a number of pulses recorded within previous shift by GMax from average number of pulses recorded during eight previous shifts;
+
 ghazard: result of shift seismic hazard assessment in the mine working obtained by the seismoacoustic method based on registration coming form GMax only;
+
 nbumps: the number of seismic bumps recorded within previous shift;
+
 nbumps2: the number of seismic bumps (in energy range [10^2,10^3)) registered within previous shift;
+
 nbumps3: the number of seismic bumps (in energy range [10^3,10^4)) registered within previous shift;
+
 nbumps4: the number of seismic bumps (in energy range [10^4,10^5)) registered within previous shift;
+
 nbumps5: the number of seismic bumps (in energy range [10^5,10^6)) registered within the last shift;
+
 nbumps6: the number of seismic bumps (in energy range [10^6,10^7)) registered within previous shift;
+
 nbumps7: the number of seismic bumps (in energy range [10^7,10^8)) registered within previous shift;
+
 nbumps89: the number of seismic bumps (in energy range [10^8,10^10)) registered within previous shift;
+
 energy: total energy of seismic bumps registered within previous shift;
+
 maxenergy: the maximum energy of the seismic bumps registered within previous shift;
+
 class: the decision attribute - '1' means that high energy seismic bump occurred in the next shift ('hazardous state'), '0' means that no high energy seismic bumps occurred in the next shift ('non-hazardous state').
 
 
